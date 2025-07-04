@@ -197,6 +197,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import { Globe } from "lucide-react";
 import { useNavigate } from "react-router-dom";
+import AElogo from "../src/assets/AElogo.png";
 // Language Context
 const LanguageContext = createContext();
 
@@ -258,10 +259,23 @@ const Navbar = () => {
       transition={{ duration: 0.5, ease: "easeOut" }}
     >
       <div className="flex justify-between items-center py-3 px-4 sm:px-8 md:px-16">
-        <div className="text-[#3f0d0c] text-2xl font-bold tracking-tight">
+        {/* <div className="text-[#3f0d0c] text-2xl font-bold tracking-tight">
           {t.companyName}
+        </div> */}
+        {/* Logo and Company Name */}
+        <div
+          className="flex items-center gap-2 cursor-pointer bg-transparent"
+          onClick={() => navigate("/")}
+        >
+          <img
+            src={AElogo}
+            alt="Ankit Enterprises Logo"
+            className="h-10 w-10 object-contain transition-transform duration-200 hover:scale-105 bg-transparent"
+          />
+          <div className="text-[#3f0d0c] text-2xl font-bold tracking-tight">
+            {t.companyName}
+          </div>
         </div>
-
         {/* Desktop Navigation Links */}
         <div className="hidden sm:flex items-center gap-8">
           <ul className="flex gap-8 text-base text-[#3f0d0c] font-medium">

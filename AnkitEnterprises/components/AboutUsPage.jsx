@@ -357,22 +357,12 @@
 
 // export default AboutUsPage;
 
-
-
-
-
-
-
-
-
-
-
-
 import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import { motion, useScroll, useTransform, useSpring } from "framer-motion";
-import { useLanguage } from './Navbar';
+import { useLanguage } from "./Navbar";
 import { useNavigate } from "react-router-dom";
+import AElogo from "../src/assets/AElogo.png";
 const AboutUsPage = () => {
   const navigate = useNavigate();
   const { language } = useLanguage();
@@ -456,59 +446,77 @@ const AboutUsPage = () => {
   const translations = {
     english: {
       aboutUs: "About Us",
-      heroSubtitle: "Crafting excellence through innovation and dedication, we transform visions into reality",
+      heroSubtitle:
+        "Crafting excellence through innovation and dedication, we transform visions into reality",
       ourStory: "Our Story",
-      storyPara1: "With over 20 years of experience in the construction industry, we've built a reputation for quality, trust, and craftsmanship. What began as a small team with a clear vision and strong work ethic has grown into a reliable construction partner for countless clients.",
-      storyPara2: "From interiors to structural work, we bring care, precision, and a commitment to excellence in everything we do. Our journey is shaped by long-lasting relationships, attention to detail, and a drive to turn every space into something special. At Ankit Enterprises, we don't just construct, we create with purpose.",
+      storyPara1:
+        "With over 20 years of experience in the construction industry, we've built a reputation for quality, trust, and craftsmanship. What began as a small team with a clear vision and strong work ethic has grown into a reliable construction partner for countless clients.",
+      storyPara2:
+        "From interiors to structural work, we bring care, precision, and a commitment to excellence in everything we do. Our journey is shaped by long-lasting relationships, attention to detail, and a drive to turn every space into something special. At Ankit Enterprises, we don't just construct, we create with purpose.",
       meetFounders: "Meet Our Founders",
       founder1Name: "Kanji N Poriya",
       founder1Role: "Founder & CEO",
-      founder1Desc: "A visionary leader and contractor, he laid the foundation of the business, driving growth by managing client relations, on-site execution, workforce and team coordination, and project delivery.",
+      founder1Desc:
+        "A visionary leader and contractor, he laid the foundation of the business, driving growth by managing client relations, on-site execution, workforce and team coordination, and project delivery.",
       founder2Name: "Ankit K Poriya",
       founder2Role: "Co-Founder, CTO & CFO",
-      founder2Desc: "A strategic thinker with a tech-savvy approach, he built the company's digital presence and ensures smooth financial management, enabling sustainable growth and operational efficiency.",
+      founder2Desc:
+        "A strategic thinker with a tech-savvy approach, he built the company's digital presence and ensures smooth financial management, enabling sustainable growth and operational efficiency.",
       ourValues: "Our Values",
       trustTitle: "Trust",
-      trustDesc: "We operate with honesty and transparency-earning trust by delivering what we promise, maintaining clear communication, and standing accountable on every project site.",
+      trustDesc:
+        "We operate with honesty and transparency-earning trust by delivering what we promise, maintaining clear communication, and standing accountable on every project site.",
       excellenceTitle: "Excellence",
-      excellenceDesc: "We commit to high-quality work-ensuring strong, long-lasting results through precise execution, timely completion, and attention to every construction detail.",
+      excellenceDesc:
+        "We commit to high-quality work-ensuring strong, long-lasting results through precise execution, timely completion, and attention to every construction detail.",
       innovationTitle: "Innovation",
-      innovationDesc: "We adopt modern methods and materials to improve efficiency, functionality, and design-creating smarter spaces that serve today's needs and tomorrow's vision.",
+      innovationDesc:
+        "We adopt modern methods and materials to improve efficiency, functionality, and design-creating smarter spaces that serve today's needs and tomorrow's vision.",
       ctaTitle: "Ready to Work Together?",
-      ctaSubtitle: "Let's create something extraordinary together. Get in touch and let's discuss your next project.",
-      contactUs: "Contact Us"
+      ctaSubtitle:
+        "Let's create something extraordinary together. Get in touch and let's discuss your next project.",
+      contactUs: "Contact Us",
     },
     gujarati: {
       aboutUs: "અમારા વિશે",
-      heroSubtitle: "નવીનતા અને સમર્પણ દ્વારા ઉત્કૃષ્ટતાનું નિર્માણ, અમે દ્રષ્ટિકોણને વાસ્તવિકતામાં બદલીએ છીએ",
+      heroSubtitle:
+        "નવીનતા અને સમર્પણ દ્વારા ઉત્કૃષ્ટતાનું નિર્માણ, અમે દ્રષ્ટિકોણને વાસ્તવિકતામાં બદલીએ છીએ",
       ourStory: "અમારી વાર્તા",
-      storyPara1: "બાંધકામ ઉદ્યોગમાં 20 વર્ષથી વધુના અનુભવ સાથે, અમે ગુણવત્તા, વિશ્વાસ અને કારીગરી માટે પ્રતિષ્ઠા બનાવી છે. એક નાની ટીમ તરીકે સ્પષ્ટ દ્રષ્ટિકોણ અને મજબૂત કાર્ય નીતિ સાથે શરૂઆત કરીને, અસંખ્ય ક્લાયન્ટ્સ માટે વિશ્વસનીય બાંધકામ ભાગીદાર બની છે.",
-      storyPara2: "આંતરિક સજાવટથી માંડીને માળખાકીય કામ સુધી, અમે અમારા દરેક કામમાં કાળજી, ચોકસાઈ અને ઉત્કૃષ્ટતાની પ્રતિબદ્ધતા લાવીએ છીએ. અમારી યાત્રા લાંબા સમયથી ચાલતા સંબંધો, વિગતોનું ધ્યાન અને દરેક જગ્યાને કંઈક ખાસ બનાવવાની દ્રાઇવ દ્વારા આકાર લે છે. અંકિત એન્ટરપ્રાઇઝમાં, અમે માત્ર બાંધકામ નથી કરતા, અમે હેતુ સાથે બનાવીએ છીએ.",
+      storyPara1:
+        "બાંધકામ ઉદ્યોગમાં 20 વર્ષથી વધુના અનુભવ સાથે, અમે ગુણવત્તા, વિશ્વાસ અને કારીગરી માટે પ્રતિષ્ઠા બનાવી છે. એક નાની ટીમ તરીકે સ્પષ્ટ દ્રષ્ટિકોણ અને મજબૂત કાર્ય નીતિ સાથે શરૂઆત કરીને, અસંખ્ય ક્લાયન્ટ્સ માટે વિશ્વસનીય બાંધકામ ભાગીદાર બની છે.",
+      storyPara2:
+        "આંતરિક સજાવટથી માંડીને માળખાકીય કામ સુધી, અમે અમારા દરેક કામમાં કાળજી, ચોકસાઈ અને ઉત્કૃષ્ટતાની પ્રતિબદ્ધતા લાવીએ છીએ. અમારી યાત્રા લાંબા સમયથી ચાલતા સંબંધો, વિગતોનું ધ્યાન અને દરેક જગ્યાને કંઈક ખાસ બનાવવાની દ્રાઇવ દ્વારા આકાર લે છે. અંકિત એન્ટરપ્રાઇઝમાં, અમે માત્ર બાંધકામ નથી કરતા, અમે હેતુ સાથે બનાવીએ છીએ.",
       meetFounders: "અમારા સ્થાપકોને મળો",
       founder1Name: "કાંજી એન પોરિયા",
       founder1Role: "સ્થાપક અને સીઇઓ",
-      founder1Desc: "એક દ્રષ્ટિસંપન્ન નેતા અને કોન્ટ્રાક્ટર, તેમણે વ્યવસાયનો પાયો નાખ્યો, ક્લાયન્ટ સંબંધો, સાઇટ પર અમલીકરણ, કાર્યબળ અને ટીમ સંકલન અને પ્રોજેક્ટ ડિલિવરીનું સંચાલન કરીને વૃદ્ધિને આગળ ધપાવી.",
+      founder1Desc:
+        "એક દ્રષ્ટિસંપન્ન નેતા અને કોન્ટ્રાક્ટર, તેમણે વ્યવસાયનો પાયો નાખ્યો, ક્લાયન્ટ સંબંધો, સાઇટ પર અમલીકરણ, કાર્યબળ અને ટીમ સંકલન અને પ્રોજેક્ટ ડિલિવરીનું સંચાલન કરીને વૃદ્ધિને આગળ ધપાવી.",
       founder2Name: "અંકિત કે પોરિયા",
       founder2Role: "સહ-સ્થાપક, સીટીઓ અને સીએફઓ",
-      founder2Desc: "ટેક-સેવી અભિગમ સાથેના વ્યૂહાત્મક વિચારક, તેમણે કંપનીની ડિજિટલ હાજરી બનાવી અને સરળ નાણાકીય વ્યવસ્થાપન સુનિશ્ચિત કર્યું, ટકાઉ વૃદ્ધિ અને કામગીરીની કાર્યક્ષમતાને સક્ષમ બનાવી.",
+      founder2Desc:
+        "ટેક-સેવી અભિગમ સાથેના વ્યૂહાત્મક વિચારક, તેમણે કંપનીની ડિજિટલ હાજરી બનાવી અને સરળ નાણાકીય વ્યવસ્થાપન સુનિશ્ચિત કર્યું, ટકાઉ વૃદ્ધિ અને કામગીરીની કાર્યક્ષમતાને સક્ષમ બનાવી.",
       ourValues: "અમારા મૂલ્યો",
       trustTitle: "વિશ્વાસ",
-      trustDesc: "અમે પ્રામાણિકતા અને પારદર્શિતા સાથે કામ કરીએ છીએ - અમે જે વચન આપીએ છીએ તે પહોંચાડીને, સ્પષ્ટ સંદેશાવ્યવહાર જાળવીને અને દરેક પ્રોજેક્ટ સાઇટ પર જવાબદાર રહીને વિશ્વાસ મેળવીએ છીએ.",
+      trustDesc:
+        "અમે પ્રામાણિકતા અને પારદર્શિતા સાથે કામ કરીએ છીએ - અમે જે વચન આપીએ છીએ તે પહોંચાડીને, સ્પષ્ટ સંદેશાવ્યવહાર જાળવીને અને દરેક પ્રોજેક્ટ સાઇટ પર જવાબદાર રહીને વિશ્વાસ મેળવીએ છીએ.",
       excellenceTitle: "ઉત્કૃષ્ટતા",
-      excellenceDesc: "અમે ઉચ્ચ ગુણવત્તાના કામ માટે પ્રતિબદ્ધ છીએ - ચોક્કસ અમલીકરણ, સમયસર પૂર્ણતા અને દરેક બાંધકામ વિગતનું ધ્યાન રાખીને મજબૂત, લાંબા સમય સુધી ચાલતા પરિણામો સુનિશ્ચિત કરીએ છીએ.",
+      excellenceDesc:
+        "અમે ઉચ્ચ ગુણવત્તાના કામ માટે પ્રતિબદ્ધ છીએ - ચોક્કસ અમલીકરણ, સમયસર પૂર્ણતા અને દરેક બાંધકામ વિગતનું ધ્યાન રાખીને મજબૂત, લાંબા સમય સુધી ચાલતા પરિણામો સુનિશ્ચિત કરીએ છીએ.",
       innovationTitle: "નવીનતા",
-      innovationDesc: "અમે કાર્યક્ષમતા, કાર્યક્ષમતા અને ડિઝાઇનને સુધારવા માટે આધુનિક પદ્ધતિઓ અને સામગ્રીને અપનાવીએ છીએ - આજની જરૂરિયાતો અને આવતીકાલના દ્રષ્ટિકોણને પૂરી પાડતી સ્માર્ટ જગ્યાઓ બનાવીએ છીએ.",
+      innovationDesc:
+        "અમે કાર્યક્ષમતા, કાર્યક્ષમતા અને ડિઝાઇનને સુધારવા માટે આધુનિક પદ્ધતિઓ અને સામગ્રીને અપનાવીએ છીએ - આજની જરૂરિયાતો અને આવતીકાલના દ્રષ્ટિકોણને પૂરી પાડતી સ્માર્ટ જગ્યાઓ બનાવીએ છીએ.",
       ctaTitle: "સાથે કામ કરવા માટે તૈયાર છો?",
-      ctaSubtitle: "ચાલો સાથે મળીને કંઈક અસાધારણ બનાવીએ. સંપર્ક કરો અને ચાલો તમારા આગામી પ્રોજેક્ટ વિશે વાત કરીએ.",
-      contactUs: "સંપર્ક કરો"
-    }
+      ctaSubtitle:
+        "ચાલો સાથે મળીને કંઈક અસાધારણ બનાવીએ. સંપર્ક કરો અને ચાલો તમારા આગામી પ્રોજેક્ટ વિશે વાત કરીએ.",
+      contactUs: "સંપર્ક કરો",
+    },
   };
 
   const t = translations[language] || translations.english;
 
   return (
     // <div className="min-h-screen bg-gradient-to-br from-[#d8d0c5] via-[#d9c4a9] to-[#d9b061] overflow-hidden">
-      <div className="min-h-screen overflow-hidden">
+    <div className="min-h-screen overflow-hidden">
       <motion.div
         variants={containerVariants}
         initial="hidden"
@@ -538,6 +546,24 @@ const AboutUsPage = () => {
           >
             {t.heroSubtitle}
           </motion.p>
+          {/* AE Logo
+          <motion.div
+            className="flex justify-center"
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.8 }}
+          >
+            <motion.img
+              src={AElogo}
+              alt="Ankit Enterprises Logo"
+              className="w-32 h-32 sm:w-40 sm:h-40 lg:w-48 lg:h-48 object-contain bg-transparent"
+              whileHover={{
+                scale: 1.1,
+                filter: "drop-shadow(0 10px 20px rgba(63, 13, 12, 0.3))",
+              }}
+              transition={{ type: "spring", stiffness: 300, damping: 20 }}
+            />
+          </motion.div> */}
         </motion.div>
 
         {/* Company Story */}
@@ -763,7 +789,9 @@ const AboutUsPage = () => {
               whileTap={{ scale: 0.95 }}
               transition={{ type: "spring", stiffness: 400, damping: 25 }}
             >
-              <button onClick={() => navigate('/ContactPage')}>{t.contactUs}</button>
+              <button onClick={() => navigate("/ContactPage")}>
+                {t.contactUs}
+              </button>
             </motion.button>
           </motion.div>
         </motion.div>
