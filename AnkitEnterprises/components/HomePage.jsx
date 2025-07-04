@@ -265,7 +265,7 @@ const translations = {
   english: {
     companyName: "Ankit Enterprises",
     experience: "20+ Years of Experience",
-    services: "Flooring | Granite | Marbel | Kitchen Platform | Wall Tiling | Window Frames & Fittings | Waterproofing | Plumbing | Electrical Work | Furniture & Carpentry | Painting | False Ceiling | And More...",
+    services: "Flooring | Granite | Marble | Kitchen Platform | Wall Tiling | Window Frames & Fittings | Waterproofing | Plumbing | Electrical Work | Furniture & Carpentry | Painting | False Ceiling | And More...",
     exploreButton: "Explore Our Services"
   },
   gujarati: {
