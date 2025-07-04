@@ -1380,7 +1380,7 @@ const OurServices = () => {
                     {post.title}
                   </motion.h3>
                   <motion.p
-                    className="text-[#8d6f57] text-sm mb-4 line-clamp-3"
+                    className="text-[#4a392c] text-sm mb-4 line-clamp-3"
                     layoutId={`description-${post.id}`}
                   >
                     {post.description}

@@ -78,6 +78,7 @@ import ContactPage from "../components/ContactPage";
 import AboutUsPage from "../components/AboutUsPage";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import Projects from "../components/Projects";
 import { LanguageProvider } from '../components/Navbar';
 
 function App() {
@@ -113,6 +114,7 @@ function App() {
               <Route path="/OurServices" element={<OurServices />} />
               <Route path="/AboutUsPage" element={<AboutUsPage />} />
               <Route path="/ContactPage" element={<ContactPage />} />
+              <Route path="/Projects" element={<Projects />} />
             </Routes>
             <Footer/>
           </div>

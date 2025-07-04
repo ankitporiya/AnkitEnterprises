@@ -231,6 +231,7 @@ const translations = {
     companyName: "Ankit Enterprises",
     home: "Home",
     ourServices: "Our Services",
+    projects: "Projects",
     aboutUs: "About Us",
     contact: "Contact",
     language: "ગુજરાતી", // Shows Gujarati when current language is English
@@ -239,6 +240,7 @@ const translations = {
     companyName: "અંકિત એન્ટરપ્રાઇઝિસ",
     home: "હોમ",
     ourServices: "અમારી સેવાઓ",
+    projects: "પ્રોજેક્ટ્સ",
     aboutUs: "અમારા વિશે",
     contact: "સંપર્ક",
     language: "English", // Shows English when current language is Gujarati
@@ -287,6 +289,12 @@ const Navbar = () => {
               <a onClick={() => navigate("/OurServices")}>{t.ourServices}</a>
               <span className="absolute bottom-0 left-1/2 transform -translate-x-1/2 h-[2px] w-0 bg-[#3f0d0c] transition-all duration-300 group-hover:w-full"></span>
             </li>
+
+            <li className="relative group cursor-pointer transition-all duration-200">
+              <a onClick={() => navigate("/Projects")}>{t.projects}</a>
+              <span className="absolute bottom-0 left-1/2 transform -translate-x-1/2 h-[2px] w-0 bg-[#3f0d0c] transition-all duration-300 group-hover:w-full"></span>
+            </li>
+
             <li className="relative group cursor-pointer transition-all duration-200">
               <a onClick={() => navigate("/AboutUsPage")}>{t.aboutUs}</a>
               <span className="absolute bottom-0 left-1/2 transform -translate-x-1/2 h-[2px] w-0 bg-[#3f0d0c] transition-all duration-300 group-hover:w-full"></span>
@@ -363,6 +371,11 @@ const Navbar = () => {
                 <li className="relative group cursor-pointer py-2 transition-all duration-200 hover:text-[#8d6f57]">
                   <a onClick={() => navigate("/OurServices")}>
                     {t.ourServices}
+                  </a>
+                </li>
+                                <li className="relative group cursor-pointer py-2 transition-all duration-200 hover:text-[#8d6f57]">
+                  <a onClick={() => navigate("/Projects")}>
+                    {t.projects}
                   </a>
                 </li>
                 <li className="relative group cursor-pointer py-2 transition-all duration-200 hover:text-[#8d6f57]">
