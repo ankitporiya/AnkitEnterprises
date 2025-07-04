@@ -250,7 +250,7 @@
 
 
 
-// language:
+// languagee:
 import React from "react";
 import bgImage from '../src/assets/bk.png'; // Adjust path as per your structure
 import { useLanguage } from "../components/Navbar";
