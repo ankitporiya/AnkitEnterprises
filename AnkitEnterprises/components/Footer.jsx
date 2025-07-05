@@ -553,14 +553,14 @@ const Footer = () => {
         } else {
           // Handle error response
           const errorData = await response.json();
-          console.error('Subscription error:', errorData);
+          // console.error('Subscription error:', errorData);
           // Check if it's a 409 conflict (email already exists)
           if (response.status === 409) {
             setEmailError(currentContent.emailAlreadyExists);
           }
         }
       } catch (error) {
-        console.error('Network error:', error);
+        // console.error('Network error:', error);
         // You can add error handling here if needed
       } finally {
         setIsSubmitting(false);

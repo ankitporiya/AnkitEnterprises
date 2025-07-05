@@ -42,6 +42,10 @@ if (process.env.NODE_ENV === 'development') {
   app.use(morgan('dev'));
 }
 
+app.get("/", (req, res) => {
+  res.send("Backend is running");
+});
+
 // Routes
 app.use('/api/contacts', contactRoutes);
 app.use("/api/subscribe", subscribeRoutes)
