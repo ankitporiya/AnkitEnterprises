@@ -1,6 +1,6 @@
 [build]
-  base = "."
-  publish = "dist"
+  base = "frontend"
+  publish = "frontend/dist"
   command = "npm run build"
 
 [[headers]]
@@ -24,7 +24,6 @@
   [headers.values]
     Content-Type = "text/javascript"
 
-# Add this for module scripts
 [[headers]]
   for = "/assets/*.js"
   [headers.values]
