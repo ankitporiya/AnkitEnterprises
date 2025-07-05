@@ -1,6 +1,6 @@
 [build]
   base = "AnkitEnterprises"
-  publish = "AnkitEnterprises/dist"
+  publish = "dist"
   command = "npm run build"
 
 [[headers]]
