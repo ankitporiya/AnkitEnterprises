@@ -16,7 +16,14 @@ connectDB();
 
 // Security middleware
 app.use(helmet());
-
+// Add this BEFORE your routes
+app.use(express.static('public', {
+    setHeaders: (res, path) => {
+        if (path.endsWith('.js')) {
+            res.setHeader('Content-Type', 'text/javascript');
+        }
+    }
+}));
 // Rate limiting
 // const limiter = rateLimit({
 //   windowMs: 15 * 60 * 1000, // 15 minutes
