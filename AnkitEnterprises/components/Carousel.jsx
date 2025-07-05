@@ -260,16 +260,22 @@
 import React, { useRef, useEffect, useState, useCallback } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { motion } from "framer-motion"; // ✅ Framer Motion added
-
+import img1 from "../src/assets/img1.webp";
+import img2 from "../src/assets/img2.webp";
+import img3 from "../src/assets/img3.webp";
+import img4 from "../src/assets/img4.jpg";
+import img5 from "../src/assets/img5.webp";
+import img6 from "../src/assets/img6.jpg";
+import img7 from "../src/assets/img7.webp";
 // Using placeholder images for demo
 const images = [
-  "../src/assets/img1.webp",
-  "../src/assets/img2.webp", 
-  "../src/assets/img3.webp",
-  "../src/assets/img4.jpg",
-  "../src/assets/img5.webp",
-  "../src/assets/img6.jpg",
-  "../src/assets/img7.webp"
+  img1,
+  img2, 
+  img3,
+  img4,
+  img5,
+  img6,
+  img7
 ];
 
 export default function Carousel() {
