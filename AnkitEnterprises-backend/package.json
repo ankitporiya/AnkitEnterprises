@@ -18,7 +18,8 @@
     "express-rate-limit": "6.10.0",
     "express-validator": "7.0.1",
     "helmet": "7.0.0",
-    "mongoose": "7.5.0",
+    "mongodb": "^6.17.0",
+    "mongoose": "^7.5.0",
     "morgan": "1.10.0",
     "path-to-regexp": "^0.1.7"
   },
