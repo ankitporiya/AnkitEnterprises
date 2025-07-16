@@ -463,7 +463,7 @@ const Footer = () => {
       companyDescription:
         "Building extraordinary spaces with trust, excellence, and innovation. We transform visions into reality through meticulous craftsmanship and modern techniques.",
       phone: "+91 8779556675",
-      email: "ankitenterprises@gmail.com",
+      email: "ankitenterprises.group@gmail.com",
       address: "Kurar Village, Malad East, Mumbai - 400097",
       servicesTitle: "Our Services",
       services: [
