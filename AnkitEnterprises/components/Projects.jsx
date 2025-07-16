@@ -17,7 +17,7 @@ import project2_img2 from "../src/projects_image/project2_img2.png";
 import project2_img3 from "../src/projects_image/project2_img3.png";
 import project2_img4 from "../src/projects_image/project2_img4.png";
 import project3_img1 from "../src/projects_image/project3_img1.png";
-import project3_img2 from "../src/projects_image/project3_img2.jpeg";
+import project3_img2 from "../src/projects_image/project3_img2.webp";
 
 const ProjectsShowcase = () => {
   const [selectedProject, setSelectedProject] = useState(null);
