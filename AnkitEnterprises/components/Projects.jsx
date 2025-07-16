@@ -51,6 +51,16 @@ const ProjectsShowcase = () => {
           completedDate: "January 2019 - April 2021",
           category: "Residential",
         },
+        {
+          id: 3,
+          projectName: "Jeevan Tara CHSL",
+          subtitle: "Developer: Regent Group Builders & Developers",
+          description:
+            "Ankit Enterprises successfully completed full bathroom work at Jeevan Tara CHSL, including flooring, wall tiling, plumbing, and modern fittings across all bathrooms and washrooms in the building.",
+          location: "Vile Parle East, Mumbai",
+          completedDate: "December 2024 - April 2025",
+          category: "Residential",
+        },
       ],
     },
     gujarati: {
@@ -78,6 +88,16 @@ const ProjectsShowcase = () => {
             "આખી બિલ્ડિંગ માટેનું આંતરિક કાર્ય સફળતાપૂર્વક પૂર્ણ કર્યું જેમાં વિટ્રિફાઇડ અને સેરામિક વોલ ટાઇલિંગ, માર્બલ ડેડો, કિચન કાઉન્ટર, વિન્ડો સિલ, સિંગલ/ડબલ પત્તી, ધર પોલિશ, ડોર જામ્બાસ, સીડીઓનું કામ અને ટેરેસ ગ્રેનાઇટ સમાપ્તીનો સમાવેશ થાય છે.",
           location: "ગોરેગાંવ પૂર્વ, મુંબઈ",
           completedDate: "જાન્યુઆરી 2019 - એપ્રિલ 2021",
+          category: "રેસિડેન્શિયલ",
+        },
+        {
+          id: 3,
+          projectName: "જીવન તારા સીએચએસએલ",
+          subtitle: "ડેવલપર: રિજેન્ટ ગ્રુપ બિલ્ડર્સ એન્ડ ડેવલપર્સ",
+          description:
+            "અંકિત એન્ટરપ્રાઇઝે જીવન તારા સીએચએસએલમાં તમામ બાથરૂમ અને વોશરૂમના ફ્લોરિંગ, વોલ ટાઇલ, પ્લમ્બિંગ અને આધુનિક ફિટિંગ્સ સહિતનું સંપૂર્ણ બાથરૂમ કાર્ય સફળતાપૂર્વક પૂર્ણ કર્યું.",
+          location: "વિલે પારલે પૂર્વ, મુંબઈ",
+          completedDate: "ડિસેમ્બર 2024 - એપ્રિલ 2025",
           category: "રેસિડેન્શિયલ",
         },
       ],
@@ -113,7 +133,7 @@ const ProjectsShowcase = () => {
   const projectImages = [
     {
       main: project1_img1,
-      additional: [project1_img1,project1_img2],
+      additional: [project1_img1, project1_img2],
     },
     {
       main: project2_img1,

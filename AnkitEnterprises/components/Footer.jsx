@@ -485,7 +485,7 @@ const Footer = () => {
       cookiePolicy: "Cookie Policy",
       builtWith: "Built with excellence",
       subscribeSuccess: "Thank you for subscribing!",
-      emailAlreadyExists: "Email already exists",
+      emailAlreadyExists: "This Email is already Subscribed",
     },
     gujarati: {
       companyName: "અંકિત એન્ટરપ્રાઇઝિસ",
