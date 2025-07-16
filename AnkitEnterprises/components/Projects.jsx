@@ -16,6 +16,8 @@ import project2_img1 from "../src/projects_image/project2_img1.png";
 import project2_img2 from "../src/projects_image/project2_img2.png";
 import project2_img3 from "../src/projects_image/project2_img3.png";
 import project2_img4 from "../src/projects_image/project2_img4.png";
+import project3_img1 from "../src/projects_image/project3_img1.png";
+import project3_img2 from "../src/projects_image/project3_img2.jpeg";
 
 const ProjectsShowcase = () => {
   const [selectedProject, setSelectedProject] = useState(null);
@@ -140,6 +142,10 @@ const ProjectsShowcase = () => {
       additional: [project2_img1, project2_img2, project2_img3, project2_img4],
     },
     // Add more project image objects here for future projects
+        {
+      main: project3_img1,
+      additional: [project3_img1, project3_img2],
+    },
   ];
 
   // Combine project data with image sets
