@@ -455,11 +455,11 @@ const AboutUsPage = () => {
         "From interiors to structural work, we bring care, precision, and a commitment to excellence in everything we do. Our journey is shaped by long-lasting relationships, attention to detail, and a drive to turn every space into something special. At Ankit Enterprises, we don't just construct, we create with purpose.",
       meetFounders: "Meet Our Founders",
       founder1Name: "Kanji N Poriya",
-      founder1Role: "Founder & CEO",
+      founder1Role: "Founder",
       founder1Desc:
         "A visionary leader and contractor, he laid the foundation of the business, driving growth by managing client relations, on-site execution, workforce and team coordination, and project delivery.",
       founder2Name: "Ankit K Poriya",
-      founder2Role: "Co-Founder, CTO & CFO",
+      founder2Role: "Co-Founder",
       founder2Desc:
         "A strategic thinker with a tech-savvy approach, he built the company's digital presence and ensures smooth financial management, enabling sustainable growth and operational efficiency.",
       ourValues: "Our Values",
@@ -488,11 +488,11 @@ const AboutUsPage = () => {
         "આંતરિક સજાવટથી માંડીને માળખાકીય કામ સુધી, અમે અમારા દરેક કામમાં કાળજી, ચોકસાઈ અને ઉત્કૃષ્ટતાની પ્રતિબદ્ધતા લાવીએ છીએ. અમારી યાત્રા લાંબા સમયથી ચાલતા સંબંધો, વિગતોનું ધ્યાન અને દરેક જગ્યાને કંઈક ખાસ બનાવવાની દ્રાઇવ દ્વારા આકાર લે છે. અંકિત એન્ટરપ્રાઇઝમાં, અમે માત્ર બાંધકામ નથી કરતા, અમે હેતુ સાથે બનાવીએ છીએ.",
       meetFounders: "અમારા સ્થાપકોને મળો",
       founder1Name: "કાંજી એન પોરિયા",
-      founder1Role: "સ્થાપક અને સીઇઓ",
+      founder1Role: "સ્થાપક",
       founder1Desc:
         "એક દ્રષ્ટિસંપન્ન નેતા અને કોન્ટ્રાક્ટર, તેમણે વ્યવસાયનો પાયો નાખ્યો, ક્લાયન્ટ સંબંધો, સાઇટ પર અમલીકરણ, કાર્યબળ અને ટીમ સંકલન અને પ્રોજેક્ટ ડિલિવરીનું સંચાલન કરીને વૃદ્ધિને આગળ ધપાવી.",
       founder2Name: "અંકિત કે પોરિયા",
-      founder2Role: "સહ-સ્થાપક, સીટીઓ અને સીએફઓ",
+      founder2Role: "સહ-સ્થાપક",
       founder2Desc:
         "ટેક-સેવી અભિગમ સાથેના વ્યૂહાત્મક વિચારક, તેમણે કંપનીની ડિજિટલ હાજરી બનાવી અને સરળ નાણાકીય વ્યવસ્થાપન સુનિશ્ચિત કર્યું, ટકાઉ વૃદ્ધિ અને કામગીરીની કાર્યક્ષમતાને સક્ષમ બનાવી.",
       ourValues: "અમારા મૂલ્યો",
