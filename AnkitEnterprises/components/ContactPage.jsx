@@ -289,7 +289,7 @@ const ContactPage = () => {
                   {
                     icon: Mail,
                     title: t.email,
-                    translations: "ankitenterprises@gmail.com",
+                    translations: "ankitenterprises.group@gmail.com",
                     color: "#d9b061",
                   },
                   {
