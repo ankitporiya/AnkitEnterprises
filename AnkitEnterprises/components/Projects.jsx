@@ -11,6 +11,7 @@ import {
 import { motion, AnimatePresence } from "framer-motion";
 import { useLanguage } from "./Navbar";
 import project1_img1 from "../src/projects_image/project1_img1.png";
+import project1_img2 from "../src/projects_image/project1_img2.jpeg";
 import project2_img1 from "../src/projects_image/project2_img1.png";
 import project2_img2 from "../src/projects_image/project2_img2.png";
 import project2_img3 from "../src/projects_image/project2_img3.png";
@@ -112,7 +113,7 @@ const ProjectsShowcase = () => {
   const projectImages = [
     {
       main: project1_img1,
-      additional: [project1_img1],
+      additional: [project1_img1,project1_img2],
     },
     {
       main: project2_img1,
