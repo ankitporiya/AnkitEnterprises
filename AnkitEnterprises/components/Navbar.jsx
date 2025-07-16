@@ -366,23 +366,47 @@ const Navbar = () => {
             <div className="px-4 py-4 border-t border-[#3f0d0c] shadow-lg text-center">
               <ul className="space-y-4 text-base text-[#3f0d0c] font-medium">
                 <li className="relative group cursor-pointer py-2 transition-all duration-200 hover:text-[#8d6f57]">
-                  <a onClick={() => navigate("/")}>{t.home}</a>
+                  <a
+                    onClick={() => (navigate("/"), setIsMenuOpen(!isMenuOpen))}
+                  >
+                    {t.home}
+                  </a>
                 </li>
                 <li className="relative group cursor-pointer py-2 transition-all duration-200 hover:text-[#8d6f57]">
-                  <a onClick={() => navigate("/OurServices")}>
+                  <a
+                    onClick={() => (
+                      navigate("/OurServices"), setIsMenuOpen(!isMenuOpen)
+                    )}
+                  >
                     {t.ourServices}
                   </a>
                 </li>
-                                <li className="relative group cursor-pointer py-2 transition-all duration-200 hover:text-[#8d6f57]">
-                  <a onClick={() => navigate("/Projects")}>
+                <li className="relative group cursor-pointer py-2 transition-all duration-200 hover:text-[#8d6f57]">
+                  <a
+                    onClick={() => (
+                      navigate("/Projects"), setIsMenuOpen(!isMenuOpen)
+                    )}
+                  >
                     {t.projects}
                   </a>
                 </li>
                 <li className="relative group cursor-pointer py-2 transition-all duration-200 hover:text-[#8d6f57]">
-                  <a onClick={() => navigate("/AboutUsPage")}>{t.aboutUs}</a>
+                  <a
+                    onClick={() => (
+                      navigate("/AboutUsPage"), setIsMenuOpen(!isMenuOpen)
+                    )}
+                  >
+                    {t.aboutUs}
+                  </a>
                 </li>
                 <li className="relative group cursor-pointer py-2 transition-all duration-200 hover:text-[#8d6f57]">
-                  <a onClick={() => navigate("/ContactPage")}>{t.contact}</a>
+                  <a
+                    onClick={() => (
+                      navigate("/ContactPage"), setIsMenuOpen(!isMenuOpen)
+                    )}
+                  >
+                    {t.contact}
+                  </a>
                 </li>
               </ul>
             </div>
