@@ -297,7 +297,7 @@ const Navbar = () => {
               <span className="absolute bottom-0 left-1/2 transform -translate-x-1/2 h-[2px] w-0 bg-[#3f0d0c] transition-all duration-300 group-hover:w-full"></span>
             </li>
             <li className="relative group cursor-pointer transition-all duration-200">
-              <a href="https://drive.google.com/file/d/1BMtyLQTcF3SXVQxuwNsxreY7KFbcb59U/view?usp=drive_link">
+              <a href="https://drive.google.com/file/d/1BMtyLQTcF3SXVQxuwNsxreY7KFbcb59U/view?usp=drive_link" target="_blank">
                 {t.companyprofile}
               </a>
               <span className="absolute bottom-0 left-1/2 transform -translate-x-1/2 h-[2px] w-0 bg-[#3f0d0c] transition-all duration-300 group-hover:w-full"></span>
@@ -399,7 +399,8 @@ const Navbar = () => {
                 </li>
                 <li className="relative group cursor-pointer py-2 transition-all duration-200 hover:text-[#8d6f57]">
                   <a
-href="https://drive.google.com/file/d/1BMtyLQTcF3SXVQxuwNsxreY7KFbcb59U/view?usp=drive_link"
+                    href="https://drive.google.com/file/d/1BMtyLQTcF3SXVQxuwNsxreY7KFbcb59U/view?usp=drive_link"
+                    target="_blank"
                   >
                     {t.companyprofile}
                   </a>
