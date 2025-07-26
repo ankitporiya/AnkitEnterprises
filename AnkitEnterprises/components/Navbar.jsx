@@ -234,6 +234,7 @@ const translations = {
     projects: "Projects",
     aboutUs: "About Us",
     contact: "Contact",
+    companyprofile: " Company Profile",
     language: "ગુજરાતી", // Shows Gujarati when current language is English
   },
   gujarati: {
@@ -243,6 +244,7 @@ const translations = {
     projects: "પ્રોજેક્ટ્સ",
     aboutUs: "અમારા વિશે",
     contact: "સંપર્ક",
+    companyprofile: " Company Profile",
     language: "English", // Shows English when current language is Gujarati
   },
 };
@@ -294,7 +296,10 @@ const Navbar = () => {
               <a onClick={() => navigate("/Projects")}>{t.projects}</a>
               <span className="absolute bottom-0 left-1/2 transform -translate-x-1/2 h-[2px] w-0 bg-[#3f0d0c] transition-all duration-300 group-hover:w-full"></span>
             </li>
-
+            <li className="relative group cursor-pointer transition-all duration-200">
+              <a href="https://drive.google.com/file/d/1BMtyLQTcF3SXVQxuwNsxreY7KFbcb59U/view?usp=drive_link">{t.companyprofile}</a>
+              <span className="absolute bottom-0 left-1/2 transform -translate-x-1/2 h-[2px] w-0 bg-[#3f0d0c] transition-all duration-300 group-hover:w-full"></span>
+            </li>
             <li className="relative group cursor-pointer transition-all duration-200">
               <a onClick={() => navigate("/AboutUsPage")}>{t.aboutUs}</a>
               <span className="absolute bottom-0 left-1/2 transform -translate-x-1/2 h-[2px] w-0 bg-[#3f0d0c] transition-all duration-300 group-hover:w-full"></span>
