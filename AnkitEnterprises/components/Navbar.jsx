@@ -234,7 +234,7 @@ const translations = {
     projects: "Projects",
     aboutUs: "About Us",
     contact: "Contact",
-    companyprofile: " Company Profile",
+    companyprofile: "Company Profile",
     language: "ગુજરાતી", // Shows Gujarati when current language is English
   },
   gujarati: {
@@ -244,7 +244,7 @@ const translations = {
     projects: "પ્રોજેક્ટ્સ",
     aboutUs: "અમારા વિશે",
     contact: "સંપર્ક",
-    companyprofile: " Company Profile",
+    companyprofile: "કંપની પ્રોફાઇલ",
     language: "English", // Shows English when current language is Gujarati
   },
 };
