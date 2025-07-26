@@ -22,6 +22,10 @@ import project2_img1 from "../src/projects_image/project2_img1.png";
 import project2_img2 from "../src/projects_image/project2_img2.png";
 import project2_img3 from "../src/projects_image/project2_img3.png";
 import project2_img4 from "../src/projects_image/project2_img4.png";
+import project2_img5 from "../src/projects_image/project2_img5.png";
+import project2_img6 from "../src/projects_image/project2_img6.png";
+import project2_img7 from "../src/projects_image/project2_img7.png";
+import project2_img8 from "../src/projects_image/project2_img8.png";
 import project3_img1 from "../src/projects_image/project3_img1.png";
 import project3_img2 from "../src/projects_image/project3_img2.webp";
 
@@ -145,7 +149,7 @@ const ProjectsShowcase = () => {
     },
     {
       main: project2_img1,
-      additional: [project2_img1, project2_img2, project2_img3, project2_img4],
+      additional: [project2_img1, project2_img2, project2_img3, project2_img4,project2_img5,project2_img6,project2_img7,project2_img8],
     },
     // Add more project image objects here for future projects
         {
@@ -464,9 +468,9 @@ const ProjectsShowcase = () => {
                   </motion.div>
                 </motion.div>
 
-                {/* Thumbnail Gallery */}
+                {/* Thumbnail Gallery grid grid-cols-8 gap-3 mb-6 */}
                 <motion.div
-                  className="grid grid-cols-8 gap-3 mb-6"
+                  className="grid grid-cols-4 sm:grid-cols-8 gap-3 mb-6"
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.3, delay: 0.4 }}
