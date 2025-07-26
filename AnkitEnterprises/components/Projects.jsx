@@ -12,6 +12,12 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useLanguage } from "./Navbar";
 import project1_img1 from "../src/projects_image/project1_img1.png";
 import project1_img2 from "../src/projects_image/project1_img2.jpeg";
+import project1_img3 from "../src/projects_image/project1_img3.png";
+import project1_img4 from "../src/projects_image/project1_img4.png";
+import project1_img5 from "../src/projects_image/project1_img5.png";
+import project1_img6 from "../src/projects_image/project1_img6.png";
+import project1_img7 from "../src/projects_image/project1_img7.png";
+import project1_img8 from "../src/projects_image/project1_img8.png";
 import project2_img1 from "../src/projects_image/project2_img1.png";
 import project2_img2 from "../src/projects_image/project2_img2.png";
 import project2_img3 from "../src/projects_image/project2_img3.png";
@@ -135,7 +141,7 @@ const ProjectsShowcase = () => {
   const projectImages = [
     {
       main: project1_img1,
-      additional: [project1_img1, project1_img2],
+      additional: [project1_img1, project1_img2,project1_img3,project1_img4,project1_img5,project1_img6,project1_img7,project1_img8],
     },
     {
       main: project2_img1,
@@ -460,7 +466,7 @@ const ProjectsShowcase = () => {
 
                 {/* Thumbnail Gallery */}
                 <motion.div
-                  className="grid grid-cols-4 gap-3 mb-6"
+                  className="grid grid-cols-8 gap-3 mb-6"
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.3, delay: 0.4 }}
